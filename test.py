@@ -1,8 +1,7 @@
-import numpy as np
 from sklearn.datasets import make_regression
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
-
+#
 X, y, coefficients = make_regression(
     n_samples=100, n_features=2, noise=10, coef=True, random_state=5
 )
